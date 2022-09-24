@@ -1,0 +1,22 @@
+body{
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-btn {
+    height: 35px;
+    width: 100px;
+    border: 1px solid #bc87f2;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(to right, 	#772c8b, #bc87f2)
+}
